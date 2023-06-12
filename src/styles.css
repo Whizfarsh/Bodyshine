@@ -273,10 +273,10 @@ body {
 	grid-template-columns: repeat(5, 100%);
 	grid-auto-rows: minmax(15rem, auto);
 	padding: 4rem;
-	column-gap: 4rem;
+	column-gap: 7rem;
 	margin: 0rem 0;
 	width: 50%;
-	animation: moveleft 20s linear infinite forwards;
+	/* animation: moveleft 20s linear infinite forwards; */
 }
 .reviews-pannel:hover {
 	animation-play-state: paused;
