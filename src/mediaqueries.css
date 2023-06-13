@@ -143,6 +143,9 @@
 }
 /* 500px */
 @media (max-width: 31.3rem) {
+	.the-reviews {
+		height: 30rem;
+	}
 	.hero-header-text {
 		font-size: 2.4rem;
 	}
