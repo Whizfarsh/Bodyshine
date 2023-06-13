@@ -19,6 +19,9 @@
 		font-size: 1.6rem;
 		line-height: 2rem;
 	}
+	/* .reviews-pannel {
+		overflow: hidden;
+	} */
 }
 /* At screen min 900px */
 @media (max-width: 59.4rem) {
@@ -34,9 +37,9 @@
 	.about-content {
 		padding: 0;
 	}
-	.review {
+	/* .review {
 		flex-direction: column;
-	}
+	} */
 	.product-name {
 		font-size: 1.6rem;
 	}
