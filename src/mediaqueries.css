@@ -19,9 +19,9 @@
 		font-size: 1.6rem;
 		line-height: 2rem;
 	}
-	/* .reviews-pannel {
-		overflow: hidden;
-	} */
+	.the-reviews {
+		max-width: 90%;
+	}
 }
 /* At screen min 900px */
 @media (max-width: 59.4rem) {
@@ -37,9 +37,6 @@
 	.about-content {
 		padding: 0;
 	}
-	/* .review {
-		flex-direction: column;
-	} */
 	.product-name {
 		font-size: 1.6rem;
 	}
@@ -88,7 +85,6 @@
 		top: -18rem;
 		background-color: #faf6f6;
 		border-radius: 20px;
-		/* box-shadow: 0 0 5px rgba(249, 170, 179, 0.8); */
 	}
 	.subscribe p {
 		color: #3a3333;
@@ -112,6 +108,12 @@
 	}
 }
 @media (max-width: 37.5rem) {
+	.the-reviews {
+		height: 26rem;
+	}
+	.review-btn-icon {
+		font-size: 1.8rem;
+	}
 	.review {
 		flex-direction: row;
 		padding: 0 0 0 1rem;

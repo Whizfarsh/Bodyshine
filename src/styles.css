@@ -264,7 +264,7 @@ body {
 /* review */
 .the-reviews {
 	position: relative;
-	height: 32rem;
+	height: 30rem;
 	max-width: 120rem;
 	margin: 0 auto;
 	padding: 4rem 0;
@@ -311,8 +311,9 @@ body {
 }
 .review-dots {
 	position: absolute;
-	bottom: 0;
-	left: 40%;
+	bottom: 2%;
+	left: 50%;
+	transform: translateX(-50%);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
